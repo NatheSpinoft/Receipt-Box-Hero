@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Receipt Box Hero Bookkeeping offers professional receipt scanning, CSV data entry, and bookkeeping services. Organized by vendor and date. Starting at just $20." />
+  <meta name="keywords" content="bookkeeping, receipt scanning, CSV data entry, small business bookkeeping, receipt organization, vendor tracking, financial services" />
+  <meta name="author" content="Receipt Box Hero Bookkeeping" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Receipt Box Hero Bookkeeping" />
+  <meta property="og:description" content="Professional receipt scanning, data entry, and bookkeeping services starting at $20." />
+  <meta property="og:site_name" content="Receipt Box Hero Bookkeeping" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.receiptboxhero.com/" />
+
+  <title>Receipt Box Hero Bookkeeping | Scanning, CSV & Books</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Share+Tech+Mono&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Receipt Box Hero Bookkeeping",
+    "description": "Professional receipt scanning, CSV data entry, and bookkeeping services.",
+    "priceRange": "$–$$",
+    "serviceType": ["Receipt Scanning", "CSV Data Entry", "Bookkeeping", "Financial Services"]
+  }
+  </script>
+</head>
+<body>
+
+  <div class="layout">
+
+    <!-- ===== LEFT PANE: THE RECEIPT ===== -->
+    <nav class="receipt-nav" role="navigation" aria-label="Main navigation">
+
+      <!-- Receipt top serrated edge -->
+      <div class="receipt-tear receipt-tear--top"></div>
+
+      <div class="receipt-inner">
+
+        <!-- Receipt header -->
+        <header class="receipt-header">
+          <p class="receipt-store-id">EST. 2024 &nbsp;·&nbsp; LIC #0042</p>
+          <h1 class="receipt-title">RECEIPT<br/>BOX HERO</h1>
+          <p class="receipt-subtitle">★ BOOKKEEPING ★</p>
+          <div class="receipt-divider">--------------------------------</div>
+          <p class="receipt-tagline">Your numbers, our mission.</p>
+          <div class="receipt-divider">--------------------------------</div>
+        </header>
+
+        <!-- Receipt items / navigation links -->
+        <ul class="receipt-items" role="list">
+          <li class="receipt-item">
+            <button class="receipt-link active" data-page="services" aria-current="page">
+              <span class="item-qty">01</span>
+              <span class="item-name">SERVICES</span>
+              <span class="item-dots">............</span>
+              <span class="item-price">➜</span>
+            </button>
+          </li>
+          <li class="receipt-item">
+            <button class="receipt-link" data-page="prices">
+              <span class="item-qty">02</span>
+              <span class="item-name">PRICES</span>
+              <span class="item-dots">.............</span>
+              <span class="item-price">➜</span>
+            </button>
+          </li>
+          <li class="receipt-item">
+            <button class="receipt-link" data-page="about">
+              <span class="item-qty">03</span>
+              <span class="item-name">ABOUT ME</span>
+              <span class="item-dots">...........</span>
+              <span class="item-price">➜</span>
+            </button>
+          </li>
+          <li class="receipt-item">
+            <button class="receipt-link" data-page="contact">
+              <span class="item-qty">04</span>
+              <span class="item-name">CONTACT</span>
+              <span class="item-dots">............</span>
+              <span class="item-price">➜</span>
+            </button>
+          </li>
+        </ul>
+
+        <div class="receipt-divider">================================</div>
+
+        <!-- Receipt footer -->
+        <footer class="receipt-footer">
+          <p class="receipt-thank-you">** THANK YOU **</p>
+          <p class="receipt-policy">All services billed in 30-min<br/>increments. No proration.</p>
+          <div class="receipt-divider">--------------------------------</div>
+          <p class="receipt-barcode" aria-hidden="true">|||||||||||||||||||||||||||||||</p>
+          <p class="receipt-barcode-num">0042-RBH-2024</p>
+        </footer>
+
+      </div>
+
+      <!-- Receipt bottom serrated edge -->
+      <div class="receipt-tear receipt-tear--bottom"></div>
+    </nav>
+
+    <!-- ===== RIGHT PANE: PRINTER PAPER ===== -->
+    <main class="paper-pane" id="main-content" role="main">
+
+      <!-- Paper margin rule (left red line) -->
+      <div class="paper-margin-line" aria-hidden="true"></div>
+
+      <!-- Paper hole punches -->
+      <div class="paper-holes" aria-hidden="true">
+        <div class="hole"></div>
+        <div class="hole"></div>
+        <div class="hole"></div>
+      </div>
+
+      <!-- ===== SERVICES PAGE ===== -->
+      <article class="page active" id="page-services" aria-labelledby="services-heading">
+        <div class="page-content">
+          <h2 class="page-heading" id="services-heading">Services</h2>
+          <div class="paper-rule" aria-hidden="true"></div>
+
+          <section class="service-block" aria-labelledby="service1-heading">
+            <div class="service-number">Service 01</div>
+            <h3 id="service1-heading" class="service-title">Receipt Scanning & Organization</h3>
+            <p class="service-desc">
+              Your receipts, finally under control. We scan every receipt you provide and organize
+              them by <strong>vendor</strong>, then by <strong>date</strong> — making it effortless
+              to locate any transaction at a glance.
+            </p>
+            <ul class="service-includes">
+              <li>Physical or digital receipt intake</li>
+              <li>Organized by vendor name</li>
+              <li>Sub-sorted chronologically within each vendor</li>
+              <li>Digital archive delivery</li>
+            </ul>
+          </section>
+
+          <div class="paper-rule paper-rule--dashed" aria-hidden="true"></div>
+
+          <section class="service-block" aria-labelledby="service2-heading">
+            <div class="service-number">Service 02</div>
+            <h3 id="service2-heading" class="service-title">Scanning + CSV Detail Entry</h3>
+            <p class="service-desc">
+              Everything in Service 01, <em>plus</em> each receipt item is individually entered
+              into a structured <strong>CSV file</strong> following standard bookkeeping practices.
+              A clean, importable spreadsheet ready for your accountant or software.
+            </p>
+            <ul class="service-includes">
+              <li>All scanning and vendor/date organization from Service 01</li>
+              <li>Line-item entry into CSV format</li>
+              <li>Standard-practice column headers (Date, Vendor, Category, Amount, Notes)</li>
+              <li>Ready for import into QuickBooks, Excel, or any accounting tool</li>
+            </ul>
+          </section>
+
+          <div class="paper-rule paper-rule--dashed" aria-hidden="true"></div>
+
+          <section class="service-block" aria-labelledby="service3-heading">
+            <div class="service-number">Service 03</div>
+            <h3 id="service3-heading" class="service-title">Full Bookkeeping</h3>
+            <p class="service-desc">
+              Comprehensive bookkeeping for your business. We handle your books with accuracy and
+              care so you can focus on what you do best. Services are tailored to your needs and
+              billed at our hourly rate — also available for other financial projects.
+            </p>
+            <ul class="service-includes">
+              <li>Income and expense tracking</li>
+              <li>Account reconciliation</li>
+              <li>Financial reports on request</li>
+              <li>Other project-based financial services available</li>
+            </ul>
+          </section>
+
+        </div>
+      </article>
+
+      <!-- ===== PRICES PAGE ===== -->
+      <article class="page" id="page-prices" aria-labelledby="prices-heading">
+        <div class="page-content">
+          <h2 class="page-heading" id="prices-heading">Prices</h2>
+          <div class="paper-rule" aria-hidden="true"></div>
+
+          <div class="price-note">
+            <p>All services require a one-time setup fee. Billed in 30-minute increments — no proration.</p>
+          </div>
+
+          <table class="price-table" aria-label="Service pricing">
+            <caption class="visually-hidden">Receipt Box Hero Bookkeeping Pricing</caption>
+            <thead>
+              <tr>
+                <th scope="col">Service / Item</th>
+                <th scope="col" class="price-col">Rate</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="price-row">
+                <td class="price-label">
+                  <span class="price-name">Start-Up Fee</span>
+                  <span class="price-detail">One-time, per new client</span>
+                </td>
+                <td class="price-amount">$20.00</td>
+              </tr>
+              <tr class="price-row">
+                <td class="price-label">
+                  <span class="price-name">Receipt Scanning</span>
+                  <span class="price-detail">Per scan, vendor &amp; date organized</span>
+                </td>
+                <td class="price-amount">$0.50<span class="price-unit">/scan</span></td>
+              </tr>
+              <tr class="price-row">
+                <td class="price-label">
+                  <span class="price-name">CSV Detail Entry</span>
+                  <span class="price-detail">Added per scan — requires scanning service</span>
+                </td>
+                <td class="price-amount">+$0.25<span class="price-unit">/scan</span></td>
+              </tr>
+              <tr class="price-row price-row--highlight">
+                <td class="price-label">
+                  <span class="price-name">Bookkeeping</span>
+                  <span class="price-detail">Billed in 30-min increments, no proration</span>
+                </td>
+                <td class="price-amount">$20<span class="price-unit">/hr</span></td>
+              </tr>
+              <tr class="price-row price-row--highlight">
+                <td class="price-label">
+                  <span class="price-name">Other Financial Services</span>
+                  <span class="price-detail">Project-based — billed in 30-min increments</span>
+                </td>
+                <td class="price-amount">$20<span class="price-unit">/hr</span></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="price-callout">
+            <p><strong>Billing note:</strong> Hourly services are billed in 30-minute increments.
+            Time is never prorated — the half-hour is the smallest billable unit.</p>
+          </div>
+
+          <!-- ===== JOB ESTIMATOR ===== -->
+          <div class="paper-rule paper-rule--dashed" aria-hidden="true"></div>
+          <h3 class="estimator-heading">Job Estimator</h3>
+          <p class="estimator-intro">Use the sliders below to estimate your quote and turnaround time before reaching out.</p>
+
+          <div class="estimator" id="estimator">
+
+            <div class="est-row-ctrl">
+              <label class="est-ctrl-label" for="est-count">
+                Number of receipts
+                <span class="est-val-badge" id="est-count-out">200</span>
+              </label>
+              <input type="range" id="est-count" min="1" max="500" step="1" value="200" class="est-slider" />
+            </div>
+
+            <div class="est-services">
+              <p class="est-ctrl-label">Services</p>
+              <div class="est-checks">
+                <label class="est-check-label">
+                  <input type="checkbox" id="est-scan" checked />
+                  Scanning &amp; organization
+                </label>
+                <label class="est-check-label">
+                  <input type="checkbox" id="est-csv" />
+                  CSV detail entry
+                </label>
+              </div>
+            </div>
+
+            <div class="est-difficulty">
+              <p class="est-ctrl-label">Receipt difficulty</p>
+              <div class="est-diff-btns" role="group" aria-label="Receipt difficulty">
+                <button class="est-diff-btn active" data-diff="easy">Easy</button>
+                <button class="est-diff-btn" data-diff="medium">Medium</button>
+                <button class="est-diff-btn" data-diff="hard">Hard</button>
+              </div>
+              <p class="est-diff-hint" id="est-diff-hint">Clean, printed receipts in good condition</p>
+            </div>
+
+            <div class="est-results">
+              <div class="est-result-card">
+                <span class="est-result-label">Client Quote</span>
+                <span class="est-result-value" id="est-quote">—</span>
+                <span class="est-result-sub">incl. $20 setup fee</span>
+              </div>
+              <div class="est-result-card">
+                <span class="est-result-label">Est. Time</span>
+                <span class="est-result-value" id="est-time">—</span>
+                <span class="est-result-sub">optimistic → realistic</span>
+              </div>
+              <div class="est-result-card">
+                <span class="est-result-label">Effective Rate</span>
+                <span class="est-result-value" id="est-rate">—</span>
+                <span class="est-result-sub" id="est-rate-sub">per hour (realistic)</span>
+              </div>
+            </div>
+
+            <div class="est-bars" id="est-bars" aria-hidden="true"></div>
+            <p class="est-note" id="est-note"></p>
+
+          </div>
+
+        </div>
+      </article>
+
+      <!-- ===== ABOUT PAGE ===== -->
+      <article class="page" id="page-about" aria-labelledby="about-heading">
+        <div class="page-content">
+          <h2 class="page-heading" id="about-heading">About Me</h2>
+          <div class="paper-rule" aria-hidden="true"></div>
+
+          <div class="about-content">
+            <div class="about-badge" aria-hidden="true">RBH</div>
+            <p class="about-text">
+              Welcome to <strong>Receipt Box Hero Bookkeeping</strong> — where the chaos of
+              shoebox receipts meets its match.
+            </p>
+            <p class="about-text">
+              I started this business because I've seen firsthand how small business owners
+              lose time, money, and peace of mind over disorganized financial records. A missed
+              receipt here, an uncategorized expense there — it adds up fast.
+            </p>
+            <p class="about-text">
+              My mission is simple: give every business owner, freelancer, and entrepreneur
+              access to clean, organized, and accurate financial records — without the
+              big-firm price tag.
+            </p>
+            <p class="about-text">
+              Whether you need a one-time scan of a year's worth of receipts or ongoing
+              bookkeeping support, I bring the same care and precision to every job.
+              Your records matter. Let's get them right.
+            </p>
+            <div class="about-signature">
+              — Your Receipt Box Hero
+            </div>
+          </div>
+
+        </div>
+      </article>
+
+      <!-- ===== CONTACT PAGE ===== -->
+      <article class="page" id="page-contact" aria-labelledby="contact-heading">
+        <div class="page-content">
+          <h2 class="page-heading" id="contact-heading">Contact</h2>
+          <div class="paper-rule" aria-hidden="true"></div>
+
+          <p class="contact-intro">
+            Ready to become the hero of your own finances? Reach out — I'd love to hear about
+            your project and get you set up.
+          </p>
+
+          <div class="contact-block">
+            <div class="contact-row">
+              <span class="contact-label">Email</span>
+              <a href="mailto:hello@receiptboxhero.com" class="contact-value">hello@receiptboxhero.com</a>
+            </div>
+            <div class="contact-row">
+              <span class="contact-label">Phone</span>
+              <a href="tel:+15550000000" class="contact-value">(555) 000-0000</a>
+            </div>
+            <div class="contact-row">
+              <span class="contact-label">Hours</span>
+              <span class="contact-value">Mon – Fri, 9 AM – 5 PM</span>
+            </div>
+          </div>
+
+          <div class="paper-rule paper-rule--dashed" aria-hidden="true"></div>
+
+          <!-- SUCCESS STATE -->
+          <div class="form-success" id="form-success" aria-live="polite" hidden>
+            <div class="form-success-icon" aria-hidden="true">✓</div>
+            <h3 class="form-success-title">Message sent!</h3>
+            <p class="form-success-body">Thanks for reaching out. I'll get back to you within one business day.</p>
+            <button class="submit-btn" id="form-reset-btn" style="margin-top:1.5rem;">Send another message</button>
+          </div>
+
+          <!--
+            FORMSPREE SETUP:
+            1. Go to https://formspree.io — create a free account
+            2. Click "New Form", name it, and copy your form ID
+            3. Replace YOUR_FORM_ID below with the ID (e.g. xpwzgkqb)
+            Formspree emails you every submission — no server or backend needed.
+          -->
+          <form
+            class="contact-form"
+            id="contact-form"
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+            novalidate
+            aria-label="Contact form"
+          >
+            <!-- Honeypot anti-spam field -->
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+            <div class="form-group">
+              <label for="cf-name">Your Name <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="cf-name" name="name" autocomplete="name" required placeholder="Jane Smith" aria-required="true" />
+              <span class="field-error" id="err-name" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="cf-email">Email Address <span class="req" aria-hidden="true">*</span></label>
+              <input type="email" id="cf-email" name="email" autocomplete="email" required placeholder="jane@example.com" aria-required="true" />
+              <span class="field-error" id="err-email" aria-live="polite"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="cf-phone">Phone (optional)</label>
+              <input type="tel" id="cf-phone" name="phone" autocomplete="tel" placeholder="(555) 000-0000" />
+            </div>
+
+            <div class="form-group">
+              <label for="cf-service">Service Interested In</label>
+              <select id="cf-service" name="service">
+                <option value="">— Select a service —</option>
+                <option value="scanning">Receipt Scanning &amp; Organization</option>
+                <option value="csv">Scanning + CSV Detail Entry</option>
+                <option value="bookkeeping">Full Bookkeeping</option>
+                <option value="other">Other Financial Service</option>
+                <option value="unsure">Not Sure Yet</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cf-receipts">Approximate number of receipts</label>
+              <select id="cf-receipts" name="receipt_count">
+                <option value="">— Roughly how many? —</option>
+                <option value="under50">Under 50</option>
+                <option value="50-150">50 – 150</option>
+                <option value="150-300">150 – 300</option>
+                <option value="300-500">300 – 500</option>
+                <option value="500plus">500+</option>
+                <option value="ongoing">Ongoing / not sure</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="cf-message">Message <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="cf-message" name="message" rows="4" required placeholder="Tell me a little about your situation..." aria-required="true"></textarea>
+              <span class="field-error" id="err-message" aria-live="polite"></span>
+            </div>
+
+            <div class="form-bottom">
+              <button type="submit" class="submit-btn" id="submit-btn">
+                <span id="submit-label">Send Message ➜</span>
+                <span id="submit-spinner" hidden aria-hidden="true">Sending…</span>
+              </button>
+              <p class="form-privacy">Your information is never shared or sold.</p>
+            </div>
+
+            <p class="form-error-general" id="form-error-general" aria-live="polite" hidden>
+              Something went wrong. Please try again or email us directly.
+            </p>
+
+          </form>
+
+        </div>
+      </article>
+
+    </main>
+  </div>
+
+  <script>
+    /* =====================================================
+       SPA NAVIGATION
+    ===================================================== */
+    const links = document.querySelectorAll('.receipt-link');
+    const pages = document.querySelectorAll('.page');
+
+    links.forEach(link => {
+      link.addEventListener('click', () => {
+        const target = link.dataset.page;
+
+        links.forEach(l => {
+          l.classList.remove('active');
+          l.removeAttribute('aria-current');
+        });
+        link.classList.add('active');
+        link.setAttribute('aria-current', 'page');
+
+        pages.forEach(p => p.classList.remove('active'));
+        document.getElementById('page-' + target).classList.add('active');
+        document.getElementById('main-content').scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+
+    /* =====================================================
+       JOB ESTIMATOR
+    ===================================================== */
+    let estDiff = 'easy';
+    const diffData = {
+      easy:   { secsOpt: 30, secsReal: 50, hint: 'Clean, printed receipts in good condition' },
+      medium: { secsOpt: 45, secsReal: 70, hint: 'Some curled, faded, or thermal receipts' },
+      hard:   { secsOpt: 60, secsReal: 90, hint: 'Handwritten, damaged, or very messy receipts' }
+    };
+
+    function fmtMoney(n) {
+      return '$' + n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+    function fmtTime(mins) {
+      const h = Math.floor(mins / 60), m = Math.round(mins % 60);
+      if (h === 0) return m + ' min';
+      if (m === 0) return h + ' hr';
+      return h + ' hr ' + m + ' min';
+    }
+
+    function runEstimator() {
+      const count   = parseInt(document.getElementById('est-count').value);
+      const doScan  = document.getElementById('est-scan').checked;
+      const doCsv   = document.getElementById('est-csv').checked;
+      document.getElementById('est-count-out').textContent = count;
+
+      const setup   = 20;
+      const scanRev = doScan ? count * 0.50 : 0;
+      const csvRev  = (doScan && doCsv) ? count * 0.25 : 0;
+      const total   = setup + scanRev + csvRev;
+
+      const d = diffData[estDiff];
+      const scanOpt  = doScan ? (count * d.secsOpt) / 60 : 0;
+      const scanReal = doScan ? (count * d.secsReal) / 60 : 0;
+      const csvOpt   = (doScan && doCsv) ? count * 0.25 : 0;
+      const csvReal  = (doScan && doCsv) ? count * 0.40 : 0;
+      const totalOpt  = 15 + scanOpt + csvOpt;
+      const totalReal = 20 + scanReal + csvReal;
+      const rateReal  = totalReal > 0 ? total / (totalReal / 60) : 0;
+
+      document.getElementById('est-quote').textContent = fmtMoney(total);
+      document.getElementById('est-time').textContent  = fmtTime(totalOpt) + ' – ' + fmtTime(totalReal);
+
+      const rateEl = document.getElementById('est-rate');
+      rateEl.textContent = rateReal > 0 ? fmtMoney(rateReal) + '/hr' : '—';
+      rateEl.className = 'est-result-value' + (rateReal >= 25 ? ' est-rate-good' : rateReal > 0 ? ' est-rate-warn' : '');
+
+      // Bars
+      const bars = [
+        { label: 'Setup fee', val: setup,   color: '#a09880' },
+        { label: 'Scanning',  val: scanRev, color: '#1D9E75', hide: !doScan },
+        { label: 'CSV entry', val: csvRev,  color: '#c0392b', hide: !(doScan && doCsv) },
+      ].filter(b => !b.hide);
+
+      document.getElementById('est-bars').innerHTML = bars.map(b => `
+        <div class="est-bar-row">
+          <span class="est-bar-label">${b.label}</span>
+          <div class="est-bar-track">
+            <div class="est-bar-fill" style="width:${total > 0 ? Math.round(b.val / total * 100) : 0}%;background:${b.color}"></div>
+          </div>
+          <span class="est-bar-val">${fmtMoney(b.val)}</span>
+        </div>
+      `).join('');
+
+      // Note
+      let note = '';
+      if (!doScan && !doCsv) {
+        note = 'Select at least one service to see a full estimate.';
+      } else if (rateReal < 20) {
+        note = '⚠ Your effective rate dips below $20/hr at this volume. Consider a minimum job fee or tiered pricing for smaller batches.';
+      } else if (rateReal >= 30) {
+        note = '✓ Solid job — effective rate is healthy at this volume. Worth quoting confidently.';
+      } else {
+        note = 'Workable, but tight. A small bump on CSV entry (+$0.10/scan) would add ' + fmtMoney(count * 0.10) + ' with no extra time.';
+      }
+      document.getElementById('est-note').textContent = note;
+    }
+
+    // Estimator event wiring
+    document.getElementById('est-count').addEventListener('input', runEstimator);
+    document.getElementById('est-scan').addEventListener('change', runEstimator);
+    document.getElementById('est-csv').addEventListener('change', runEstimator);
+
+    document.querySelectorAll('.est-diff-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.est-diff-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        estDiff = btn.dataset.diff;
+        document.getElementById('est-diff-hint').textContent = diffData[estDiff].hint;
+        runEstimator();
+      });
+    });
+
+    runEstimator();
+
+    /* =====================================================
+       CONTACT FORM — Formspree AJAX submission
+    ===================================================== */
+    const contactForm  = document.getElementById('contact-form');
+    const formSuccess  = document.getElementById('form-success');
+    const formResetBtn = document.getElementById('form-reset-btn');
+    const submitBtn    = document.getElementById('submit-btn');
+    const submitLabel  = document.getElementById('submit-label');
+    const submitSpinner= document.getElementById('submit-spinner');
+    const formErrGen   = document.getElementById('form-error-general');
+
+    function getField(id)  { return document.getElementById(id); }
+    function getErr(id)    { return document.getElementById('err-' + id); }
+
+    function showError(fieldId, msg) {
+      const el = getErr(fieldId);
+      if (el) { el.textContent = msg; }
+      const input = getField('cf-' + fieldId);
+      if (input) input.setAttribute('aria-invalid', 'true');
+    }
+    function clearError(fieldId) {
+      const el = getErr(fieldId);
+      if (el) { el.textContent = ''; }
+      const input = getField('cf-' + fieldId);
+      if (input) input.removeAttribute('aria-invalid');
+    }
+    function clearAllErrors() {
+      ['name','email','message'].forEach(clearError);
+      formErrGen.hidden = true;
+    }
+
+    function validateForm() {
+      let valid = true;
+      clearAllErrors();
+
+      const name = getField('cf-name').value.trim();
+      if (!name) { showError('name', 'Please enter your name.'); valid = false; }
+
+      const email = getField('cf-email').value.trim();
+      const emailRx = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!email) { showError('email', 'Please enter your email address.'); valid = false; }
+      else if (!emailRx.test(email)) { showError('email', 'Please enter a valid email address.'); valid = false; }
+
+      const msg = getField('cf-message').value.trim();
+      if (!msg) { showError('message', 'Please include a message.'); valid = false; }
+
+      return valid;
+    }
+
+    // Live validation on blur
+    ['cf-name','cf-email','cf-message'].forEach(id => {
+      const el = getField(id);
+      if (el) el.addEventListener('blur', () => { validateForm(); });
+    });
+
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!validateForm()) return;
+
+      // Check Formspree ID is set
+      const action = contactForm.getAttribute('action');
+      if (action.includes('YOUR_FORM_ID')) {
+        formErrGen.textContent = 'Form not yet configured. See the setup instructions in the HTML comments, or email us directly.';
+        formErrGen.hidden = false;
+        return;
+      }
+
+      submitLabel.hidden  = true;
+      submitSpinner.hidden = false;
+      submitBtn.disabled  = true;
+      formErrGen.hidden   = true;
+
+      try {
+        const data = new FormData(contactForm);
+        const res  = await fetch(action, {
+          method: 'POST',
+          body: data,
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (res.ok) {
+          contactForm.hidden  = true;
+          formSuccess.hidden  = false;
+          contactForm.reset();
+        } else {
+          const json = await res.json().catch(() => ({}));
+          formErrGen.textContent = (json.errors && json.errors[0] && json.errors[0].message)
+            ? json.errors[0].message
+            : 'Something went wrong. Please try again or email us directly.';
+          formErrGen.hidden = false;
+        }
+      } catch (err) {
+        formErrGen.textContent = 'Network error. Please check your connection and try again.';
+        formErrGen.hidden = false;
+      } finally {
+        submitLabel.hidden   = false;
+        submitSpinner.hidden = true;
+        submitBtn.disabled   = false;
+      }
+    });
+
+    formResetBtn && formResetBtn.addEventListener('click', () => {
+      formSuccess.hidden  = true;
+      contactForm.hidden  = false;
+      clearAllErrors();
+    });
+
+  </script>
+
+</body>
+</html>
